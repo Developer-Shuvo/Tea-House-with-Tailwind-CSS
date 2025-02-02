@@ -7,6 +7,8 @@
     <title>Tea House</title>
     <!-- ----Fav icon--- -->
     <link rel="icon" type="image/png" href="./images/14916650.png">
+    <!-------- External Css File ------->
+    <link rel="stylesheet" href="./tea-house.css">
     <!-- ----Script---- -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <!-- ---------Customizing With Tailwind--------- -->
@@ -184,7 +186,7 @@
                         <h3 class="pt-5 text-lg font-bold">Mr. Shuvo</h3>
                         <p class="text-[#5D5A6F] text-base">Businessman</p>
 
-                        <div class="absolute bg-white rounded-full -left-5 -top-5"><img class="w-20 h-20 p-1 rounded-full" src="./images/shuvo.png" alt=""></div>
+                        <div class="absolute bg-white rounded-full -left-5 -top-5"><img class="object-fill w-20 h-20 p-1 rounded-full" src="./images/shuvo.png" alt=""></div>
                     </div>
 
                 </div>
@@ -215,7 +217,7 @@
         </div>
 
 
-        <!-- Card Container -->
+        <!------- Card Container ---------->
         <div class="flex items-center justify-center gap-6">
             <!-- Card 1 -->
             <div class="mb-32 bg-white border border-[#D2D2D2] rounded-lg shadow-xl w-xs">
@@ -260,15 +262,35 @@
 
     </section>
 
-
-
 </main>
 
 
 
 
 <!-- -------Footer Section------- -->
-<footer></footer>
+<footer class="bg-red-100 h-60">
+
+    <section class="max-w-screen-xl mx-auto">
+
+        <!-- Upper Section -->
+        <div class="flex justify-between ">
+
+
+            <!--Cup image -->
+            <img class="w-20 mt-25 h-18" src="./images/mug.png" alt="">
+
+            <div class="flex items-center justify-center gap-10 text-center mt-25">
+                <h3 class="text-[#494949] text-lg">Ready to get strated?</h3>
+                <button class="items-center justify-center h-10 text-center text-white rounded cursor-pointer w-30 bg-linear-65 from-yellow-500 to-orange-600">Get Started</button>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+</footer>
 
 <body>
 
